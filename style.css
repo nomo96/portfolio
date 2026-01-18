@@ -1,15 +1,21 @@
-<style>
-  body {
-    background-color: #f0f8ff;  /* 背景を薄い水色にする */
-    color: #333333;             /* 文字を真っ黒ではなく濃いグレーにする（読みやすい） */
-    font-family: sans-serif;    /* 明朝体からゴシック体に変える */
-  }
-  h1 {
-    color: #000080;             /* タイトルを紺色にする */
-    text-align: center;         /* タイトルを真ん中に寄せる */
-  }
-  h2 {
-    border-bottom: 2px solid orange; /* 見出しの下にオレンジの線を引く */
-    padding-bottom: 5px;             /* 線と文字の間を少し空ける */
-  }
-</style>
+@charset "UTF-8";
+
+body {
+  background-color: #f9f9f9;  /* 背景色 */
+  color: #333333;             /* 文字色 */
+  font-family: sans-serif;    /* フォント */
+}
+
+h1 {
+  text-align: center;         /* 中央寄せ */
+  color: navy;                /* 文字色 */
+}
+
+h2 {
+  border-bottom: 3px solid #ffcc00; /* 下線 */
+  padding-bottom: 5px;
+}
+
+img {
+  max-width: 100%;            /* スマホ対策 */
+}
