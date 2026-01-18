@@ -1,1 +1,15 @@
-
+<style>
+  body {
+    background-color: #f0f8ff;  /* 背景を薄い水色にする */
+    color: #333333;             /* 文字を真っ黒ではなく濃いグレーにする（読みやすい） */
+    font-family: sans-serif;    /* 明朝体からゴシック体に変える */
+  }
+  h1 {
+    color: #000080;             /* タイトルを紺色にする */
+    text-align: center;         /* タイトルを真ん中に寄せる */
+  }
+  h2 {
+    border-bottom: 2px solid orange; /* 見出しの下にオレンジの線を引く */
+    padding-bottom: 5px;             /* 線と文字の間を少し空ける */
+  }
+</style>
